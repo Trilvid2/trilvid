@@ -1,0 +1,119 @@
+.interview {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+.timer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.timer h2 {
+    width: 50%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: var(--dark);
+}
+.timer span {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.timer span p {
+    width: fit-content;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: .7em;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.interview form {
+    width: 40%;
+    background-color: white;
+    border-radius: .6em;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+.interview form span {
+    width: 100%;
+    text-align: right;
+    font-size: .8em;
+}
+.interview form fieldset {
+    width: 100%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    padding: 10px;
+}
+.interview form fieldset label {
+    width: 100%;
+    font-size: .8em;
+    font-weight: 600;
+    color: var(--dark);
+}
+.interview form fieldset input {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    outline: none;
+}
+.interview form fieldset button {
+    padding: 8px;
+    color: white;
+    background-color: var(--dark);
+    border: 0px;
+}
+.invalid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.invalid img{
+    width: 300px;
+    box-sizing: border-box;
+}
+.invalid span {
+    font-family: var(--font);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+.interview form {
+    width: 80%;
+}
+.timer {
+    flex-direction: column;
+}
+.timer h2 {
+    width: 100%;
+}
+.timer span {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+ 
+
+}

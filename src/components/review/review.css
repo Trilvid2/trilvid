@@ -1,0 +1,217 @@
+.reviewPg {
+    width: 100%;
+    box-sizing: border-box;
+    /* background-image: url(/service_bg.jpg); */
+    margin: 0 !important;
+}
+.svgBlockchain {
+    position: absolute;
+    width: 100%;
+    object-fit: contain;
+    background-position: top;
+}
+.reSwiper {
+    padding: 10px;
+    box-sizing: border-box;
+    /* height: 400px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0px !important;
+}
+.reviewSlide {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 0px !important;
+    position: relative;
+    left: 0;
+}
+.rvContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.rvicon {
+    width: 20%;
+    font-size: 4em;
+    color: var(--dark);
+    padding-right: 10px;
+}
+.rvText {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 10px;
+}   
+.rvText .inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.inside .spanLine {
+    width: 50px;
+    height: 3px;
+    background-color: var(--dark);
+}
+.inside h4 {
+    text-transform: capitalize;
+    font-family: var(--font);
+}
+.rvImg {
+    width: 80px;
+    height: 80px;
+    border: 4px solid var(--dark);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.rvImg .rvProfile1 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/vic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.rvProfile2 {
+    width: 100%;    
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/mil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.rvProfile3 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/alex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.rvProfile7 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/jam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.rvProfile6 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/mike.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.rvProfile5 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/dan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+/* .rvProfile7 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/w1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position: top;
+} */
+/* .rvProfile8 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/m3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position: top;
+}
+.rvProfile9 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/m2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position: top;
+}
+.rvProfile10 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/m1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position: top;
+}
+.rvProfile11 {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-image: url(/w2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position: top;
+} */
+
+
+
+/* SwiperSlide */
+
+
+
+@media (max-width: 990px) and (min-width: 768px){
+  
+    
+}
+
+@media screen and (max-width: 767px){
+    
+.reSwiper {
+    height: 450px;
+}    
+    .rvContainer {
+        width: 100%;
+    }
+    .rvicon {
+        font-size: 2.2em;
+        padding: 0;
+        color: var(--sec-color);
+    }
+    .rvText {
+        width: 100%;
+        padding-right: 0px;
+        font-size: .9em;
+    }   
+    .rvImg {
+        position: absolute;
+        bottom: 30%;
+        right: 0;
+    }
+    .inside h4 {
+        width: 78%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}

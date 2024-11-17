@@ -1,0 +1,369 @@
+.alljobs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;   
+    box-sizing: border-box;
+}
+.searchbox {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.searchbox form {
+    width: 94%;
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.searchbox form span {
+    border: 1px solid gray;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 3px var(--dark);
+    border-radius: .4em;
+}
+.searchbox form span input {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+    border-radius: .4em;
+}
+
+.searchbox form span button {
+    width: 10%;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    font-size: 1.277em;
+    border: 0px;
+    color: var(--pri-color);
+    font-weight: 600 !important;
+    background-color: var(--dark);
+}
+.searchbox p {
+    width: 95%;
+    padding: 10px;
+    text-transform: capitalize; 
+    box-sizing: border-box;
+    font-size: 1.3em;
+}
+
+.jobContain {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.jobContain .joblist {
+    width: 75%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+.joblist .jcard {
+    width: 100%;
+    border-radius: .6em;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    font-family: var(--font);
+    margin-top: 20px;
+    box-shadow: 0px 0px 3px gray;
+}
+.jcard .jhead {
+    width: 100%;
+    padding: 0px 10px;
+    color: var(--dark);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.jhead h2 {
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1em;
+    width: 60%;
+}
+.jhead p {
+    width: 40% !important;
+    text-align: right !important;
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: .87em;
+}
+.jcard .jcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.jcontent .btn {
+    border: 0px;
+    padding: 10px;
+    border-radius: .9em;
+    background-color: #4a00006b;
+    color: var(--dark);
+    font-family: var(--font);
+    font-size: .8em;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.joblist p {
+    color: var(--mild);
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.joblist p .jicons {
+    color: var(--dark);
+}
+
+.detail {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.456);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detContain {
+    width: 75%;
+    background-color: var(--pri-color);
+    border-radius: .5em;
+    padding: 8px;
+    box-sizing: border-box  ;
+}
+
+/* job details */
+.onejob {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 244, 249);
+    box-sizing: border-box;
+    font-family: var(--font) !important;
+    background-color: #07056c17;
+}
+.onejob .spacex {
+    width: 90%;
+    padding: 10px 1Ener0px;
+    box-sizing: border-box;
+}
+.imagediv {
+    padding: 10px;
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 50px;
+    border-radius: .67em;
+}
+.imagediv img {
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .67em;
+}
+.containDetails {
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.containDetails span {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.containDetails span h3 {
+    color: var(--dark);
+    font-family: var(--font);
+    font-weight: 500;
+}
+.containDetails section {
+    border-color: gray;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 20px 5px;
+    box-sizing: border-box;
+    font-family: var(--font);
+    width: 100%;
+    margin-bottom: 20px;
+}
+.containDetails section p {
+    width: 70%;
+    font-size: .9em;
+}
+.rowme {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: var(--font);
+    padding: 20px;
+    box-sizing: border-box;
+    /* margin-bottom: 60px; */
+    background-color: white;
+}
+.rowme span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .9em !important;
+    text-transform: capitalize;
+}
+.rowme span p {
+    width: 100%;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--mild);
+    font-size: .9em;
+    font-weight: 500;
+    margin-top: 0;
+}
+.rowme span button {
+    background-color: var(--sec-color);
+    color: white;
+    font-family: var(--font);
+    border: 0px;
+    border-radius: .6em;
+    width: 150px;
+    padding: 7px 1px;
+    cursor: pointer;
+}
+.applyhere {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.456);
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.applyhere form {
+    width: 40%;
+    background-color: white;
+    border-radius: .6em;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+.applyhere form span {
+    width: 100%;
+    text-align: right;
+    font-size: .8em;
+}
+.applyhere form fieldset {
+    width: 100%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    padding: 10px;
+}
+.applyhere form fieldset label {
+    width: 100%;
+    font-size: .8em;
+    font-weight: 600;
+    color: var(--dark);
+}
+.applyhere form fieldset input {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    outline: none;
+}
+.applyhere form fieldset button {
+    padding: 8px;
+    color: white;
+    background-color: var(--dark);
+    border: 0px;
+}
+
+@media (max-width: 767px) {
+.applyhere form {
+    width: 80%;
+}
+ 
+.searchbox form span input {
+    width: 85%;
+}
+
+.searchbox form span button {
+    width: 15%;
+}
+.jobContain .joblist {
+    width: 90%;
+}
+.jcontent .btn {
+    font-size: .58em !important;
+
+}
+.containDetails section p {
+    width: 96%;
+}
+.containDetails {
+    width: 100%;
+}
+
+}

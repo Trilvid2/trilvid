@@ -1,0 +1,226 @@
+.aboutPagex {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    position: absolute;  
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .aboutPage {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-image: url(/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .abtHero {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.67);
+    color: white;
+    box-sizing: border-box;
+  }
+  .abtTextsect {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 60px;
+  }
+  .abtTextsect h2 {
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-transform: capitalize;
+    text-align: right;
+    width: 90%;
+    padding: 10px;
+  }
+  .arrow span {
+    text-align: center;
+    font-size: .7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5px;
+  }
+  .coloredTxt {
+    color: var(--sec-color);
+    font-size: 1rem !important;
+  }
+  .wordx {
+    width: 80%;
+    text-align: center;
+    padding: 15px;
+    font-family: var(--font);
+    color: var(--dashboard);
+    box-sizing: border-box;
+    font-size: .9em;
+    margin-bottom: 30px;
+  }
+
+  .whatIsKa {
+    text-transform: capitalize;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+  .whatIsmild {
+    text-transform: capitalize;
+    width: 100%;
+    background-color: #f5f5f5 !important;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+  .whatIsdark {
+    text-transform: capitalize;
+    width: 100%;
+    background-color: var(--dark-mild) !important;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+  .doc h1 {
+    font-size: 1.1rem;
+    color: var(--dark-text) !important;
+  }
+  .doc h1 b{
+    font-size: 2.1rem;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: var(--dark) !important;
+  }
+  .whatIsdark .doc h1 {
+    color: #fff !important;
+  }
+  .whatIsdark .doc p {
+    color: #fff !important;
+  }
+  .sct11 {
+    margin: 40px;
+    box-sizing: border-box;
+  }
+  .sct11 .abtIconsx img {
+    border: 10px solid white;
+    border-radius: .9em;
+    width: 100%;
+    box-shadow: inset 10px whitesmoke !important;
+  }
+  
+  .asectContainer .abtIconsx img {
+    border-radius: .9em;
+    width: 100%;
+    box-shadow: inset 10px whitesmoke !important;
+  }
+  .asectContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 90%;
+  }
+  .asectContainer span {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 1;
+  }
+  .asectContainer .doc h1 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--font);
+    color: var(--sec-color);
+    /* width: 40%;
+    border: 1px solid red; */
+  }
+  .asectContainer .doc p{
+    font-size: .81rem;
+    line-height: normal;
+    margin-top: 0;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .aboutPagex .featurePg {
+    font-family: var(--font);
+    font-size: .9em;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .aboutPagex .featurePg h2 {
+    color: var(--dark);
+  }
+  .abtIconsx .scDown,
+  .doc .scDown {
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px  ;
+  }
+  .abtIconsx .scDown span,
+  .doc .scDown span {
+    border: 0px;
+    font-size: .9rem !important;
+    color: var(--dark-text);
+  }
+  .abtIconsx .scDown span:hover {
+    color: var(--dark);
+  }
+  .doc .scDown span:hover {
+    color: var(--dark);
+  }
+
+  .spaceme {
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+
+
+  @media (max-width: 990px) and (min-width: 768px){
+    .asectContainer {
+      flex-direction: column;
+    }
+    .asectContainer span {
+      width: 100%;
+    }
+    .asectContainer .doc h1 {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 1.87rem;
+    }
+
+   }
+   @media screen and (max-width: 767px){
+    .abtTextsect {
+      padding: 10px 30px;
+    }
+  .asectContainer {
+    flex-direction: column;
+  }
+  .asectContainer span {
+    width: 100%;
+  }
+  .asectContainer .doc h1 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.87rem;
+  }
+   }

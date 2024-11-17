@@ -1,0 +1,205 @@
+.featurePg {
+    width: 100%;
+    padding: 50px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeb01f1e;
+    box-sizing: border-box;
+}
+
+.featurePg .service_section {
+    width: 90% !important;
+    text-align: center;
+    color: var(--dark);
+}
+.featurePg div h1 {
+    font-weight: 500 !important;
+    /* width: 100% !important; */
+}
+.featurePg .center {
+    width: 100%;
+    text-align: center;
+}
+.featurePg .service_section .how_itworks {
+    width: 45% !important;
+    padding: 0px !important;
+}
+.featurePg .service_section .how_itworks h2 {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+.featurePg .service_section .how_itworks img {
+    width: 100%;
+    margin-top: 0px;
+    border-radius: .6em .6em 0px 0px;
+}
+.featurePg .service_section .how_itworks h2 a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.featurePg form {
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.featurePg form span {
+    border: 1px solid gray;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 3px var(--dark);
+    border-radius: .4em;
+}
+.featurePg form span input {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+    border-radius: .4em;
+}
+
+.featurePg form span button {
+    width: 10%;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    font-size: 1.277em;
+    border: 0px;
+    color: var(--pri-color);
+    font-weight: 600 !important;
+    background-color: var(--dark);
+}
+
+.featurePg section {
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    overflow-x: auto;
+}
+.featurePg section div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.featurePg section div button {
+    width: 280px;
+    padding: 11px 7px;
+    box-sizing: border-box;
+    border-radius: .7em;
+    background-color: var(--dark);
+    border: 1px solid var(--dark);
+}
+.featurePg section div button a {
+    color: var(--pri-color);
+    text-decoration: none;
+}
+.featurePg section div button a:hover {
+    color: var(--pri-color);
+    text-decoration: underline;
+}
+.asSeen {
+    width: 85%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px    ;
+}
+.asSeen span {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.asSeen .as {
+    width: 30% !important;
+    text-transform: capitalize;
+    font-family: var(--font);
+}
+
+
+@media (max-width: 767px) {
+
+    .featurePg div h1 {
+        font-size: 1.234em;
+    }
+    .featurePg form {
+        width: 100%;
+    }
+    
+.featurePg form span input {
+    width: 80% !important;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+    border-radius: .4em;
+}
+
+.featurePg form span button {
+    width: 20% !important;
+    box-sizing: border-box;
+    font-size: 1.277em;
+    border: 0px;
+    color: var(--pri-color);
+    font-weight: 600 !important;
+    background-color: var(--dark);
+}
+
+.featurePg section {
+    width: 100% !important;
+    box-sizing: border-box;
+    padding: 0px;
+    overflow: auto;
+}
+.featurePg section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 2000px !important;
+}
+.featurePg section div button {
+    width: 300px;
+    margin-left: 30px;
+}
+.asSeen span img {
+    width: 40px !important;
+}
+.featurePg {
+    padding: 10px !important;
+}
+.featurePg .service_section {
+    width: 100% !important;
+}
+.featurePg .service_section .how_itworks {
+    width: 100% !important;
+}
+
+}

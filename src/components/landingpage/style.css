@@ -1,0 +1,448 @@
+.landpagex {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+}
+.mySwiper {
+  box-sizing: border-box;
+  width: 100%;
+  /* border-radius: 0px 0px 50px 50px; */
+  position: absolute;
+  height: 100vh;
+  padding: 0px !important;
+  }
+
+  .slideContainer {
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+  }
+  
+  .containerShade {
+    width: 100%;
+    height: 100vh;
+    padding: 0 !important;
+    margin: 0 !important;
+    /* padding: 15px; */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.78);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .sideLine {
+    width: 8px;
+    height: 150px;
+    background-color: var(--dark);
+    margin-top: -70px;
+  }
+  .innerText {
+    width: 90%;
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .innerText h1 {
+    color: var(--pri-color);
+    text-transform: capitalize;
+    font-family: var(--font);
+    font-weight: 500;
+  }
+  .emphasy{
+    font-size: 2.5rem;
+    color: var(--sec-color);
+    display: block;
+    /* text-transform: uppercase; */
+    font-family: var(--font);
+    font-weight: 600;
+  }
+  .innerText p {
+    width: 70%;
+    color: var(--pri-color);
+    color: #e6e6e6;
+    font-family: var(--font);
+    word-wrap: break-word;
+    font-size: .9em;
+  }
+  .innerText a {
+    text-decoration: none;
+  }
+
+  .slide1 {
+    background-image: url(/abt.jpg);
+  }
+  .slide2 {
+    background-image: url(/tanker.png);
+
+  }
+  .slide3 {
+    background-image: url(/G.jpg);
+    object-position: center;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as necessary */
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1; /* Ensure it is above the video */
+    color: white; /* Adjust as necessary */
+    padding: 10px !important;
+    border: 2px solid green !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* style for button */
+  .lpButton {
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--dark);
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    user-select: none;
+    gap: 0.75rem;
+    /* box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17; */
+    transition: all 0.6s ease;
+  }
+  
+  .lpButton:hover {
+    box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+  }
+  
+  .lpButton:focus,
+  .lpButton:active {
+    opacity: 0.85;
+    box-shadow: none;
+  }
+  
+  .lpButton svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+
+
+
+  
+@media (max-width: 990px) and (min-width: 768px){
+}
+
+@media screen and (max-width: 767px){
+    
+  .containerShade {
+    width: 100%;
+    height: 700px;
+  }
+  .sideLine {
+    display: none;
+  }
+  .innerText {
+    width: 90%;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+
+  .innerText h1 {
+    font-size: 1.7em;
+  }
+  .emphasy{
+    font-size: 1.8rem;
+  }
+  .innerText p {
+    width: 90%;
+    line-height: 1.5;
+  }
+  .slide1 {
+    background-position: right;
+  }
+    
+}
+
+
+
+
+
+
+/* .landpagex {
+  width: 100%;
+  box-sizing: border-box;
+}
+.mySwiper {
+  box-sizing: border-box !important ;
+  width: 100%;
+  border-radius: 0px 0px 50px 50px;
+  padding: 0px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .slideContainer {
+    width: 90%;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: var(--pri-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px !important;
+    box-sizing: border-box;
+  }
+  
+  .containerShade {
+    width: 100%;
+  }
+  .containerShade .desktop {
+    display: block;
+    width: 100% !important;
+  }
+  .containerShade .mobile {
+    display: none;
+  }
+  .innerText {
+    width: 90%;
+  }
+
+  .innerText span {
+    color: var(--dark);
+    text-transform: capitalize;
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 2.2em;
+    font-family: var(--font);
+    font-weight: 700 !important;
+  }
+  .innerText .innerMob {
+    display: none;
+  }
+  .innerText h3 {
+    display: none;
+  }
+  .emphasy{
+    font-size: 1em !important;
+    color: var(--sec-color) !important;
+    font-family: var(--font) !important;
+    font-weight: 600;
+  }
+  .innerText p {
+    width: 70%;
+    color: var(--pri-color);
+    color: #e6e6e6;
+    font-family: var(--font);
+    word-wrap: break-word;
+    font-size: .9em;
+  }
+  .innerText h2 {
+    font-weight: 500;
+    font-size: .9em;
+  }
+  .innerText a {
+    text-decoration: none;
+  }
+
+  .slide1 {
+    background-image: url(/homepng.svg);
+  }
+
+  .content {
+    position: relative;
+    z-index: 1; 
+    color: white;
+    padding: 10px !important;
+    border: 2px solid green !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .lpButton {
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--dark);
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    user-select: none;
+    gap: 0.75rem;
+    transition: all 0.6s ease;
+  }
+  
+  .lpButton:hover {
+    box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+  }
+  
+  .lpButton:focus,
+  .lpButton:active {
+    opacity: 0.85;
+    box-shadow: none;
+  }
+  
+  .lpButton svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+
+
+
+  
+@media (max-width: 990px) and (min-width: 768px){
+}
+
+@media screen and (max-width: 767px){
+  .mySwiper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .slideContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+  }    
+  .containerShade {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px !important;
+    box-sizing: border-box;
+  }
+  .containerShade .mobile {
+    display: flex;
+    margin: auto !important;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .containerShade .desktop {
+    display: none;
+  }
+  .innerText {
+    width: 100%;
+    padding-left: 0px;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .innerText span {
+    font-size: 1.4em !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .emphasy{
+    font-size: 1.4em !important;
+  }
+  .innerText p {
+    width: 90%;
+    line-height: 1.5;
+  }
+  .innerText .innerMob {
+    display: block;
+    color: var(--dark);
+    width: 100% !important;
+    font-size: 1.5em !important;
+  }
+  .innerText .innerMob .emphasy {
+    color: var(--sec-color) !important;
+    font-size: 1.2em !important;
+  }
+  .innerText h3 {
+    display: block;
+    text-align: center;
+    font-size: .9em;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .innerText .innerDesk {
+    display: none;
+  }
+  .innerText h2 {
+    display: none;
+  }
+  .lpButton {
+    margin: auto !important;
+    background-color: var(--sec-color);
+  }
+    
+} */
+
+

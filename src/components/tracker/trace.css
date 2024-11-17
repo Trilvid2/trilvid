@@ -1,0 +1,335 @@
+.thispg {
+    
+    background-color: #07056c17;
+}
+.joblist span {
+    width: 100%;
+    font-family: var(--font);
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.joblist img {
+    width: 100%
+}
+
+
+.rowme {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: var(--font);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    background-color: white;
+}
+.rowme section {
+    width: 80%;
+    padding: 0px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    font-size: .9em !important;
+    text-transform: capitalize;
+    border: 0px !important;
+}
+.rowme section b {
+    width: fit-content;
+}
+.rowme section p {
+    display: flex;
+    align-items: center;
+    color: var(--mild);
+    font-size: .8em;
+    font-weight: 500;
+    padding: 5px !important;
+    width: fit-content !important;
+}
+
+/* styles for login  */
+.signUp-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: #07056c49;
+  }
+
+  
+  .form_container {
+      width: 500px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 15px;
+      padding: 50px 40px 20px 40px;
+      background-color: #ffffff;
+      box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+        0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+        0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 11px;
+      font-family: "Inter", lato, var(--font);
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    
+    .logo_container {
+      box-sizing: border-box;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .logo_container img {
+      width: 150px;
+    }
+    
+    .title_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    .title {
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--dark);
+      text-transform: capitalize;
+      font-family: var(--font);
+      text-align: center;
+    }
+    
+    .subtitle {
+      font-size: 0.725rem;
+      max-width: 80%;
+      text-align: center;
+      line-height: 1.1rem;
+      color: #8B8E98;
+      display: none;
+    }
+    
+    .input_container {
+      width: 100%;
+      height: fit-content;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-sizing: border-box;
+    }
+    .input_container select {
+      width: 97%;
+    }
+    
+    .icon {
+      width: 20px;
+      position: absolute;
+      z-index: 19;
+      left: 2px;
+      right: 0px;
+      bottom: 9px;
+      color: var(--dark);
+      box-sizing: border-box;
+    }
+
+    .iicn i {
+      font-size: 1.67rem;
+    }
+    
+    .input_label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-align: left;
+      color: var(--dark-mild);
+      font-family: var(--font);
+    }
+    
+    .input_field {
+      width: 91%;
+      height: 40px;
+      padding: 0 0 0 28px;
+      outline: none;
+      border: 0px solid #e5e5e5;
+      filter: drop-shadow(0px 1px 0px #efefef)
+        drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+      transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+      border-bottom: 1px solid #8B8E98;
+    }
+    
+    .input_field:focus {
+      border: 0px;
+      border-bottom: 2px solid var(--dark);
+    }
+  
+  
+    .input_pass_container {
+      padding: 0;
+      width: 99.5%;  
+      box-sizing: border-box;
+    }
+  
+    .input_pass_container .input_field {
+      width: 92%;
+    }
+  
+    .input_pass_container .passIcon {
+      position: absolute;
+      right: 20px;
+      bottom: 12px;
+      color: var(--dark-mild);
+    }
+    
+    .sign-in_btn {
+      width: 100%;
+      height: 40px;
+      border: 0;
+      background: var(--sec-color);
+      border-radius: 7px;
+      outline: none;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    
+  
+    .remeberMex {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .remeberMex label {
+      text-transform: capitalize;
+      color: var(--dark-mild);
+      padding-left: 10px;
+      font-size: .8em;
+    }
+
+    
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #8B8E98;
+}
+
+.separator .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #e8e8e8;
+}
+.notex {
+  font-size: 0.75rem;
+  color: #8B8E98;
+  cursor: pointer;
+}
+.note {
+  font-size: 0.75rem;
+  color: #8B8E98;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.formFooter {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    /* display: none; */
+}
+
+
+
+@media (max-width: 990px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px){
+  
+.signUp-page {
+  width: 100%;
+  box-sizing: border-box !important;
+}
+.login-page {
+  width: 100%;
+  box-sizing: border-box !important;
+}
+  
+.form_container {
+  /* position: relative; */
+    width: 100%; 
+    margin: auto;
+    font-family: "Inter", lato, var(--font);
+    box-sizing: border-box !important;
+  }  
+  .input_container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .input_container .input_field {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+  
+  .logo_container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .logo_container img {
+    width: 150px;
+  }  
+  .title {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 0.725rem;
+  }
+  
+
+}
+@media (max-width: 320px) {
+  .login-page {
+    width: 100%;
+  }
+  .form_container {
+    position: relative;
+    width: 100%;
+  }
+  main.signUp-page {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+  .signUp-page .form_container {
+    width: 100% !important;
+  }
+}

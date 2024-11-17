@@ -1,0 +1,272 @@
+.sustainPage {
+    background-image: url(/G.jpg);
+}
+
+.sustaindiv1 {
+    width: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+.sustaindiv1 .newsSectionx {
+    width: 30%;
+}
+.sustaindiv1 .newsSectionx .xcard {
+    width: 100%;
+    border: 0px !important;
+}
+
+.longdiv {
+    width: 60%;
+    border-radius: .8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.longdiv img {
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+.longdiv span {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+.longdiv h2 {
+    font-weight: 500;
+    color: var(--dark);
+    font-family: var(--font);
+    text-transform: capitalize;
+}
+.longdiv button {
+    background-color: var(--sec-color);
+    border-radius: .56rem;
+    /* width: 200px; */
+    color: var(--pri-color);
+    padding: 10px 15px;
+    border: 0px;
+    text-transform: capitalize;
+
+}
+.longdiv button a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.sustaindiv2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sustaindiv2 section {
+    width: 45%;
+    border-radius: .8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: var(--font);
+    box-shadow: 0px 0px 3px gray;
+}
+.sustaindiv2 section div {
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 12px 12px 0px 0px;
+}
+.sustaindiv2 section div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 11px 11px 0px 0px;
+}
+.sustaindiv2 section span {
+    padding: 0px 20px;
+    font-size: .76em;
+    margin-bottom: 20px;
+}
+.sustaindiv2 section h2 {
+    color: var(--dark);
+    text-transform: capitalize;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.sustaindiv2 section h2 a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.sustaindiv3 {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.longdiv2 {
+    width: 100%;
+    border-radius: .8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.longdiv2 img {
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+.longdiv2 span {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+.longdiv2 h2 {
+    font-weight: 500;
+    color: var(--dark);
+    font-family: var(--font);
+    text-transform: capitalize;
+}
+.longdiv2 button {
+    background-color: var(--sec-color);
+    border-radius: .56rem;
+    color: var(--pri-color);
+    padding: 10px 15px;
+    border: 0px;
+    text-transform: capitalize;
+
+}
+.sustaindiv3 .featurePg {
+    margin-top: 30px;
+    border-radius: .8em;
+    color: var(--dark);
+    font-family: var(--font);
+    font-weight: 500;
+}
+.subpagee {
+    background-image: url(/dum.jpeg);
+}
+
+.eneryPage {
+    background-image: url(/silo.jpg);
+}
+
+.sustainPage a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.longdiv2  button a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .sustaindiv1 {
+        flex-direction: column !important;
+        width: 100%;
+    }
+    
+.sustaindiv1 .newsSectionx {
+    width: 90%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.longdiv {
+    width: 90%;
+    flex-direction: column;
+}
+.longdiv2 {
+    width: 100%;
+    flex-direction: column;
+}
+
+.longdiv img, .longdiv2 img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.longdiv span, .longdiv2 span {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: var(--font);
+} 
+
+.sustaindiv2 {
+    width: 100%;
+    flex-direction: column;
+}
+.sustaindiv2 section {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sustaindiv2 section div {
+    width: 100%;
+    height: 200px;
+}
+.sustaindiv2 section div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100%;
+}
+
+}

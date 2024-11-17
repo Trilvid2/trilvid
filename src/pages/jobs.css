@@ -1,0 +1,209 @@
+.containJobs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    /* margin-top: ; */
+}
+.space {
+    text-transform: capitalize;
+    font-family: var(--font);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.space span {
+    color: var(--dark);
+    font-weight: 600;
+}
+.jobhero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+.jobhero .jop {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #eeb01f1e;
+}
+.jop .jtext {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+.jtext h2 {
+    font-weight: 500;
+    color: var(--mild);
+}
+.jtext section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+}
+.jtext section p {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: capitalize;
+    color: var(--mild);
+}
+.jtext .jicon {
+    color: var(--dark);
+    font-size: 1.8em;
+    padding: 10px;
+}
+.jop .jimg {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+.jimg img {
+    width: 100%;
+}
+
+.jown {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.jown .featurePg {
+    background-image: url(/bgf.svg);
+}
+.jown .featurePg h1 {
+    color: var(--pri-color);
+}
+.jown .featurePg form button {
+    background-color: var(--sec-color);
+    border-radius: 0px 5px 5px 0px;
+}
+.jown .featurePg form input {
+    border-radius: 5px 0px 0px 5px;
+}
+.jown .featurePg div button {
+    width: 230px;
+    padding: 10px !important;
+    background-color: var(--sec-color);
+    border-color: var(--sec-color);
+}
+.scrollme {
+    width: 100%;
+    overflow-x: scroll;
+}
+.category_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.cate {
+    max-width: 340px; 
+    width: 250px !important;
+    border-radius: .7em;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    box-shadow: 0px 0px 3px gray;
+}
+.cate img {
+    width: 35px;
+}
+.cate h2 {
+    font-size: 1em;
+}
+.cate h2 a {
+    color: var(--dark);
+    text-decoration: none;
+}
+.cate h2 a:hover {
+    text-decoration: underline;
+}
+.otherjobs {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.otherjobs span {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.otherjobs span a {
+    padding: 7px 0px;
+    border-bottom: 1px solid;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-family: var(--font);
+    color: var(--mild);
+    font-size: .8em;
+}
+
+@media (max-width: 767px) {
+    .jobhero .jop {
+        flex-direction: column-reverse;
+    }
+    .jop .jimg {
+        width: 100%;
+    }
+    .jop .jtext {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .jtext section {
+        flex-direction: column;
+    }
+    .jtext section p {
+        width: 100%;
+    }
+    .containJobs {
+        width: 100%;
+    }
+    .scrollme {
+        padding: 40px 0px;
+        box-sizing: border-box;
+    }
+    .category_section {
+        width: 330%;
+        box-sizing: border-box;
+        overflow: scroll;
+    }
+    .cate {
+        width: 450px !important;
+    }
+    .otherjobs {
+        flex-direction: column;
+    }
+    .otherjobs span {
+        width: 95%;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,163 @@
+.partnerPg {
+    width: 100%;
+    box-sizing: border-box;
+    /* background-image: url(/service_bg.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.space {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    line-height: 0;
+    position: relative;
+}
+.space h1 {
+    color: var(--dark);
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.space h2 {
+    color: var(--dark);
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.space p {
+    width: 80px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--sec-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.space p hr {
+    background-color: var(--dark);
+    height: 2px;
+    width: 50px;
+    border: 0px;
+}
+.space .partBtn {
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    width: 120px;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    box-sizing: border-box;
+} 
+.space .partBtn .swiper-button-next {
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.space .partBtn .swiper-button-prev {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.svgBlockchain {
+    position: absolute;
+    width: 100%;
+    object-fit: contain;
+    background-position: top;
+}
+.patSwiper {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.patSwiper .patSlide {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px !important;
+    border-radius: 0px !important;
+    margin-left: 10px;
+    /* opacity: 9; */
+}
+.patSwiper .patSlide img {
+    width: 250px;
+    box-sizing: border-box;
+    /* opacity: 0.5; */
+}
+.patSwiper .patSlide img:hover {
+    opacity: 10;
+}
+.patSwiper .patSlide img:focus {
+    opacity: 10;
+}
+.patSwiper .patSlide img:active {
+    opacity: 10;
+}
+.patSwiper .patSlide img:visited {
+    opacity: 10;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  content: '>' ;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 990px) and (min-width: 768px){
+    
+  }
+  
+  @media screen and (max-width: 767px){
+    .space {
+        line-height: 1;
+    }
+    .space h2 {
+        margin-top: 0px;
+        font-size: .9em;
+        padding-top: 5px;
+        font-weight: 600;
+    }
+    .space h1 {
+        margin-top: 0px;
+        font-size: 1.8em;
+    }
+    .space p {
+        margin-top: 0px;
+    }
+    .patSwiper {
+        width: 100% !important;
+        margin-top: 30px;
+        padding: 16px;
+        box-sizing: border-box  ;
+    }
+    .patSwiper .patSlide {
+        margin-left: 35px !important;
+        width: 40% !important;
+    }
+    .patSwiper .patSlide img{
+        width: 100%;
+    }
+  }
+

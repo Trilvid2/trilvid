@@ -1,0 +1,260 @@
+.contactPagex {
+    width: 100%;
+    background-color: var(--pri-color);
+}
+.contactPage {
+    background-image: url(/tanker.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.contactPagex .space {
+    margin-top: 10px;
+    padding-top: 30px !important;
+} 
+.abtTextsect h1 {
+    font-size: 2em;
+    font-weight: 500;
+    padding: 30px;
+    text-transform: capitalize;
+}
+.contactForm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contactForm div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactForm .cSocials span {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.contactForm .cSocials span .ciconm {
+    font-size: 1.3em;
+    color: var(--dark);
+}
+.contactForm .cSocials span a {
+    width: 100%;
+    text-decoration: none;
+    font-size: .9em;
+    transition: all .5s ease-in-out;
+    color: var(--color);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--font);
+}
+.contactForm .cForm {
+    width: 45% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: var(--font);
+  }
+
+
+/* style for the contact page */
+.contactForm .cForm .contactFormx {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -10px gray;
+    box-shadow: 0px 0px 3px gray;
+    /* border: 0.5px solid gray; */
+  }
+  
+  .contactFormx .title {
+    color: var(--dark);
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+  }
+  
+  .contactFormx input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .contactFormx textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .contactFormx button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--dark);
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+
+  .space {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    line-height: 0;
+    position: relative;
+}
+.space h1 {
+    color: var(--dark-text);
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.space h2 {
+    color: var(--dark);
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.space p {
+    width: 80px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--dark);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.space p hr {
+    background-color: var(--dark);
+    height: 2px;
+    width: 50px;
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) and (min-width: 768px){
+    .contactPagex {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .contactPage {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+.contactForm {
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.contactForm div {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.contactForm .cForm {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contactForm .cForm .contactFormx .title {
+    text-align: left;
+}
+
+}
+
+@media screen and (max-width: 767px){
+
+.contactForm {
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.contactForm div {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.contactForm .cForm {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contactForm .cForm .contactFormx {
+    width: 80%;
+}
+
+.space {
+    line-height: 1;
+}
+.space h2 {
+    margin-top: 0px;
+    font-size: .9em;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.space h1 {
+    margin-top: 0px;
+    font-size: 1.8em;
+}
+.space p {
+    margin-top: 0px;
+}
+
+}

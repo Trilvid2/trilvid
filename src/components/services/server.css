@@ -1,0 +1,127 @@
+/* From Uiverse.io by gharsh11032000 */ 
+.tcard {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    border-radius: 24px;
+    line-height: 1.6;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .tcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 36px;
+    border-radius: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    background: #0a3cff;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .tcontent::before {
+    position: absolute;
+    content: "";
+    top: -4%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%);
+    background: #ced8ff;
+    z-index: -1;
+    transform-origin: bottom;
+  
+    border-radius: inherit;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .tcontent::after {
+    position: absolute;
+    content: "";
+    top: -8%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%);
+    background: #e7ecff;
+    z-index: -2;
+    transform-origin: bottom;
+    border-radius: inherit;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .tcontent svg {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .tcontent .para {
+    z-index: 1;
+    opacity: 1;
+    font-size: 18px;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    font-size: .756em;
+  }
+  .tcontent .para h1{
+    margin: 0px !important;
+  }
+  
+  .tcontent .link {
+    z-index: 1;
+    color: #fea000;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .tcontent .link:hover {
+    text-decoration: underline;
+  }
+  
+  .tcard:hover {
+    transform: translate(0px, -16px);
+  }
+  
+  .tcard:hover .tcontent::before {
+    rotate: -8deg;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tcard:hover .tcontent::after {
+    rotate: 8deg;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  @media (max-width: 990px) and (min-width: 768px){
+    /* .about-text #Ntext {
+      width: 100% !important;
+    } */
+  
+    .tcard {
+      flex-wrap: wrap;
+      width: 45%;
+  }
+  }
+  
+  
+  @media screen and (max-width: 767px){
+    .newsSection {
+      flex-direction: column;
+    }
+    .tcard {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto !important;
+        margin-top: 80px !important;
+    }
+  }

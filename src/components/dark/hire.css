@@ -1,0 +1,59 @@
+
+.whatIsdark {
+    text-transform: capitalize;
+    width: 100%;
+    background-color: #4a0000e6 !important;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+  .sectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+  .sectContainer .doc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+  .sectContainer div {
+    width: 85% !important;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  .sectContainer div img {
+    width: fit-content;
+    width: 100px;
+  }
+  .whatIsdark .doc h1 {
+    color: #fff !important;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .whatIsdark .doc p {
+    color: #fff !important;
+  }
+
+  @media (max-width: 767px) {
+    
+  .whatIsdark .doc h1 {
+    font-size: 1.5em;
+  }
+  .sectContainer div img {
+    width: fit-content;
+    padding: 20px;
+    box-sizing: border-box      ;
+    width: 100px;
+  }
+  }
